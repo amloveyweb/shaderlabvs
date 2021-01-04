@@ -47,6 +47,19 @@ via menu `Editor -> Advanced -> Format Document`
 
 ![](http://www.amlovey.com/shaderlabvs/assets/SRP.png)
 
+## Support Visual Studio Version
+
+- Visual Studio 2019
+
+## Support Files
+
+* .shader
+* .cginc
+* .glslinc
+* .compute
+* .cg
+* .hlsl
+
 ## For more information
 
 Visit site <http://www.amlovey.com/shaderlabvs/>
