@@ -47,6 +47,40 @@ via menu `Editor -> Advanced -> Format Document`
 
 ![](http://www.amlovey.com/shaderlabvs/assets/SRP.png)
 
+### 7. Code Snippets
+Below are the snippets:
+
+| Snippets     | Description                                           |
+| ------------ | :---------------------------------------------------- |
+| blend1-dc_1  | Blend OneMinusDstColor One                            |
+| blend1_1-sa  | Blend One OneMinusSrcAlpha                            |
+| blend1_1     | Blend One One                                         |
+| blenddc_0    | Blend DstColor Zero                                   |
+| blenddc_sc   | Blend DstColor SrcColor                               |
+| blendsa_1-sa | Blend SrcAlpha OneMinusSrcAlpha                       |
+| cgp          | CGPROGRAM...ENCG                                      |
+| for          | `for` loop                                            |
+| forr         | Reverse `for` loop                                    |
+| glp          | GLSLPROGRAM...ENCGLSL                                 |
+| hlp          | HLSLPROGRAM...ENDHLSL                                 |
+| if           | if { ... }                                            |
+| ifelse       | if {...} else {...}                                   |
+| inc          | #include ""                                           |
+| incpkg       | #include "Packages"                                   |
+| incucg       | #include "UnityCG.cginc"                              |
+| prop2d       | `2D` type property                                    |
+| propc        | `Color` type property                                 |
+| propcube     | `Cube` type property                                  |
+| propf        | `Float` type property                                 |
+| proprange    | `Range` type proprety                                 |
+| props        | Properties { ... }                                    |
+| propv        | `Vector` type property                                |
+| shader       | Shader { ... }                                        |
+| struct       | struct { ... };                                       |
+| subshader    | SubShader { ... }                                     |
+| tags         | Tags { ... }                                          |
+| tagtt        | Tags with both of RenderType and Queue is Transparent |
+
 ## Support Visual Studio Version
 
 - Visual Studio 2019
@@ -60,6 +94,15 @@ via menu `Editor -> Advanced -> Format Document`
 * .cg
 * .hlsl
 
-## For more information
+## CHANGELOG
 
-Visit site <http://www.amlovey.com/shaderlabvs/>
+
+**V1.0.1 beta2**
+
+- Improve syntax highlighting
+- Add code snippets support
+
+
+**v1.0 beta1**
+
+init commit
