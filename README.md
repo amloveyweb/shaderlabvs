@@ -43,6 +43,10 @@ ShaderlabVS Pro is a Visual Studio plugin for Unity shaderlab programming. It is
 
 via menu `Editor -> Advanced -> Format Document` 
 
+### 6. Go To Definition
+
+![](http://www.amlovey.com/shaderlabvs/assets/GoToDefinition.png)
+
 ### 6. Support SRP
 
 ![](http://www.amlovey.com/shaderlabvs/assets/SRP.png)
@@ -95,6 +99,16 @@ Below are the snippets:
 * .hlsl
 
 ## CHANGELOG
+
+**V1.0.2 Beta3**
+
+- Add `Go To Definition` features for methods/variables/types
+- Add highlighting for all occurrences for selected word
+- Add signature help support for method defined by macros
+- Improve brace match marker background color 
+- Fix bug that method defined by macros are missing in completion
+- Fix bug that duplicated completion item in Code Complete
+- Fix bug that built-in included shader libraries are missing
 
 
 **V1.0.1 beta2**
