@@ -23,35 +23,35 @@ ShaderlabVS Pro is a Visual Studio plugin for Unity shaderlab programming. It is
 
 ## Main Features
 
-### 1. Syntax Highlighting
+### Syntax Highlighting
 
 ![](http://www.amlovey.com/shaderlabvs/assets/DarkTheme.png)
 
-### 2. Code Completion and Basic Intellisense
+### Code Completion and Basic Intellisense
 
 ![](http://www.amlovey.com/shaderlabvs/assets/MemeberIntelisense.png)
 
-### 3. Hover Information
+### Hover Information
 
 ![](http://www.amlovey.com/shaderlabvs/assets/HoverInformation.png)
 
-### 4. Signature Help
+### Signature Help
 
 ![](http://www.amlovey.com/shaderlabvs/assets/SignatureHelp.png)
 
-### 5. Format Document
+### Format Document
 
 via menu `Editor -> Advanced -> Format Document` 
 
-### 6. Go To Definition
+### Go To Definition
 
 ![](http://www.amlovey.com/shaderlabvs/assets/GoToDefinition.png)
 
-### 6. Support SRP
+### Support SRP
 
 ![](http://www.amlovey.com/shaderlabvs/assets/SRP.png)
 
-### 7. Code Snippets
+### Code Snippets
 Below are the snippets:
 
 | Snippets     | Description                                           |
@@ -110,12 +110,10 @@ Below are the snippets:
 - Fix bug that duplicated completion item in Code Complete
 - Fix bug that built-in included shader libraries are missing
 
-
 **V1.0.1 beta2**
 
 - Improve syntax highlighting
 - Add code snippets support
-
 
 **v1.0 beta1**
 
