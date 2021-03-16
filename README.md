@@ -100,6 +100,19 @@ Below are the snippets:
 
 ## CHANGELOG
 
+**V1.0.4**
+
+* Improve highlighting for all occurrences will ignore comment line
+* Improve performance for large files
+* Fix bug that highlighting is not work for last comment line of code
+
+**V1.0.3**
+
+* Add `placing open brace on new line` formatting style
+* Add type info in hover information
+* Fix bug that variables in method cannot found in `Go To Definition`
+* Fix type name is wrong for some variables/members in some scenarios
+
 **V1.0.2 Beta3**
 
 - Add `Go To Definition` features for methods/variables/types
