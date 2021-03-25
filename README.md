@@ -100,6 +100,12 @@ Below are the snippets:
 
 ## CHANGELOG
 
+**v1.0.5**
+
+* Better code completion match
+* Add version update notification
+* Fix some minor bugs
+
 **V1.0.4**
 
 * Improve highlighting for all occurrences will ignore comment line
