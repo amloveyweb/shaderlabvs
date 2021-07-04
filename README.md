@@ -39,9 +39,135 @@ ShaderlabVS Pro is a Visual Studio plugin for Unity shaderlab programming. It is
 
 ![](http://www.amlovey.com/shaderlabvs/assets/SignatureHelp.png)
 
-### Format Document
+### Auto Format
+
+#### Format Document
 
 via menu `Editor -> Advanced -> Format Document` 
+
+#### Format Selection
+
+
+
+#### Place Open Brace On New Line
+
+We can set brace formatting style in **Tools** -> **Options** -> **Text** **Editors** -> **Shaderlab** -> **Formatting** page.
+
+If `Place Open Brace On New Line` is `true`, after formatting, open brace will be in new line, like below
+
+```csharp
+if (true)
+{
+  
+}
+```
+
+
+
+if `Place Brace On New Line` is `fase`, after formatting, open brace will not in new line.
+
+```csharp
+if (true) {
+  
+}
+```
+#### Macros Alignment Modes
+
+In Settings, there is an item under `ShaderlabVScode` section named `Formatting: Style`, change the `Macros alignment modes` to set formatting mode for macros.
+
+##### Indentation with hierachy
+
+```csharp
+Subshader 
+{
+    Pass
+    {
+        CGPROGRAM
+        void MacroTest()
+        {
+            float c;
+            #if 0
+                c = 0;
+                #if 1
+                    c = 1;
+                #endif
+            #endif
+        }
+        ENDCG
+    }
+}
+```
+
+##### Indentation without hierachy
+
+```csharp
+Subshader 
+{
+    Pass
+    {
+        CGPROGRAM
+        void MacroTest()
+        {
+            float c;
+         #if 0
+                c = 0;
+         #if 1
+                c = 1;
+         #endif
+         #endif
+        }
+        ENDCG
+    }
+}
+```
+
+##### No Indentation but with hierachy
+
+```csharp
+Subshader 
+{
+    Pass
+    {
+        CGPROGRAM
+        void MacroTest()
+        {
+            float c;
+#if 0
+            c = 0;
+    #if 1
+            c = 1;
+    #endif
+#endif
+        }
+        ENDCG
+    }
+}
+```
+
+##### No Indentation and without hierachy
+
+```csharp
+Subshader 
+{
+    Pass
+    {
+        CGPROGRAM
+        void MacroTest()
+        {
+            float c;
+#if 0
+            c = 0;
+#if 1
+            c = 1;
+#endif
+#endif
+        }
+        ENDCG
+    }
+}
+```
+
+
 
 ### Go To Definition
 
@@ -99,6 +225,30 @@ Below are the snippets:
 * .hlsl
 
 ## CHANGELOG
+
+**v1.1.2**
+
+- Add supports for shaders inside Packages folder
+- Add supports for Visual Studio 2020 Preview
+- Fix bug that some fields of struct are missing in code completion when struct contains macros
+- Fix minor bugs in auto format
+
+
+**v1.1.1**
+
+- Improve macros formatting in AutoFormat
+- Fix exception when `place brace in new line` is `false` in Auto Format
+- Fix bug that code completion of struct with method members is not correct
+
+**v1.1.0**
+
+- Add `Format Selection` feature
+- Better HLSL Supports that add more keywords and builtin methods
+- Better Outlining that support regions and program blocks
+- Better macros formatting. We can change different styles in `Macros Alignment Modes` settings
+- Better Syntax highlighting for types and methods
+- Fix bugs that StructuredBuffer show as Buffer type in hover information
+- Fix some formatting bugs that breaking shader compile
 
 **v1.0.5**
 
