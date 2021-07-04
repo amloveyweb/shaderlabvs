@@ -21,6 +21,11 @@ ShaderlabVS Pro is a Visual Studio plugin for Unity shaderlab programming. It is
 3. Click `Install` button on install the window 
 4. After install successfully, restart Visual Studio
 
+## Support Visual Studio Version
+
+-  Visual Studio 2019
+-  Visual Studio 2022 Preview
+
 ## Main Features
 
 ### Syntax Highlighting
