@@ -52,7 +52,11 @@ via menu `Editor -> Advanced -> Format Document`
 
 #### Format Selection
 
+via Menu `Editor -> Advanced -> Format Selection`
 
+#### Format On Save
+
+Enable it by set **Tools** -> **Options** -> **Text Editors** -> **Shaderlab** -> **Formatting** -> **Auto Format On Save** to `true`
 
 #### Place Open Brace On New Line
 
@@ -216,9 +220,16 @@ Below are the snippets:
 | tags         | Tags { ... }                                          |
 | tagtt        | Tags with both of RenderType and Queue is Transparent |
 
+### Script Templates
+
+We can add customize script template and create them via menu `Create -> Shader -> [Customize Name]`. Install/update them to Unity by the menu `Tools -> ShaderlabVS Pro -> Install Script Templates` and Restart Unity is required. 
+
+The template file format is `[Menu Name]-[Default File Name].txt` , for example `HLSL Shader-New HLSL Shader.hlsl.txt` means using `Create -> Shader -> HLSL Shader` menu to create a file default named to `New HLSL Shader.hlsl`.
+
 ## Support Visual Studio Version
 
 - Visual Studio 2019
+- Visual Studio 2022 Preview
 
 ## Support Files
 
@@ -230,6 +241,32 @@ Below are the snippets:
 * .hlsl
 
 ## CHANGELOG
+
+**v1.1.6**
+
+\- Add format on save feature. Enable it by set `Auto Format On Save` to `true` in options, the default value is `false` for this config item
+
+\- Add scripts template feature. We can add customize script template and create them via menu `Create -> Shader -> [Customize Name]`. Install/update them to Unity by the menu `Tools -> ShaderlabVS Pro -> Install Script Templates` and Restart Unity is required
+
+\- Fix include files seaching is sometimes not working on old or upgraded Unity Project
+
+\- Fix bug for formatting '--1' with wrong result
+
+**v1.1.5**
+
+\- Add more built in shader libaries
+
+\- Fix comment result will not correct in some scenarios
+
+\- Fix that macros contains brace get wrong results in auto format
+
+**v1.1.4**
+
+\- Improve performance for ASE shaders
+
+**v1.1.3**
+
+\- Improve supports for shaders inside Packages folders
 
 **v1.1.2**
 
