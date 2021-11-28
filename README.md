@@ -241,6 +241,15 @@ The template file format is `[Menu Name]-[Default File Name].txt` , for example 
 * .hlsl
 
 ## CHANGELOG
+**v1.1.7**
+
+- Add local package support
+- Add vfxshader support (Experimental)
+- Add VS2022 support
+- Improve shader script templates workflow
+- Fix block comment format issue
+- Fix Undo and Save On Format conflicts
+
 
 **v1.1.6**
 
