@@ -15,5 +15,5 @@
     - [Script Templates](README.md#script-templates)
 
 - Support
-    - [Support File Types](README.md#support-files)
+    - [Support File Types](SupportFiles.md#support-file-types)
     - [Change Log](Changelog.md#changelog)
