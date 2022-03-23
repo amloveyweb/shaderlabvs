@@ -16,4 +16,4 @@
 
 - Support
     - [Support File Types](README.md#support-files)
-    - [Change Log](Changelog.md)
+    - [Change Log](Changelog.md#changelog)
