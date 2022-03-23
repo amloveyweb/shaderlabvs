@@ -225,13 +225,3 @@ Below are the snippets:
 We can add customize script template and create them via menu `Create -> Shader -> [Customize Name]`. Install/update them to Unity by the menu `Tools -> ShaderlabVS Pro -> Install Script Templates` and Restart Unity is required. 
 
 The template file format is `[Menu Name]-[Default File Name].txt` , for example `HLSL Shader-New HLSL Shader.hlsl.txt` means using `Create -> Shader -> HLSL Shader` menu to create a file default named to `New HLSL Shader.hlsl`.
-
-## Support File Types
-
-* .shader
-* .cginc
-* .glslinc
-* .compute
-* .cg
-* .hlsl
-* .vfxshader
