@@ -23,7 +23,7 @@
 </head>
 <body>
   <div data-app id="main">Please wait...</div>
-
+  <script src="http://www.amlovey.com/uas/banner/banner.js"></script>
   <script>
     window.$docsify = {
       el: '#main',
@@ -32,7 +32,20 @@
       name: "ShaderlabVS Pro",
       auto2top: true,
       mergeNavbar: true,
-      loadSidebar: "sidebar.md"
+      loadSidebar: "sidebar.md",
+      themeable: {
+        readyTransition: true,
+        responsiveTables: true,
+      },
+      plugins: [
+        function(hook) {
+          hook.beforeEach(function(html) {
+            var blankLines = "<h5/> \n\n";
+            return (blankLines + html);
+          });
+        },
+        UASBanner.create()
+      ]
     }
   </script>
   <script src="//cdn.jsdelivr.net/npm/docsify/lib/docsify.min.js"></script>

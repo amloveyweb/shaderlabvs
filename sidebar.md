@@ -1,5 +1,5 @@
 - Getting Started
-    - [Introduction](README.md#introduction)
+    - [Introduction](README.md#shaderlabvs-pro)
     - [Installation](README.md#installation)
     - [Support Visual Studio Version](README.md#support-visual-studio-version)
 
