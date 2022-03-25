@@ -16,4 +16,5 @@
 
 - Support
     - [Support File Types](SupportFiles.md#support-file-types)
+    - [Contact](contact.md)
     - [Change Log](Changelog.md#changelog)
