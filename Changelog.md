@@ -1,11 +1,20 @@
 ## CHANGELOG
 
+### Version 1.2.0
+
+**NEW:**
+- Add Toggle Completion Mode support for space, `.` and ';'. Toggle the settings by menu Edit -> Intellisense -> Toggle Completion Mode (Experimental)
+
+**FIXED:**
+- Fix signature help does not work when there are spaces between method name and brackets
+- Fix new version notification are not working in some cases
+
 ### Version 1.1.8
 
-**NEW**
+**NEW:**
 - Add support for multiple variables declaration (Experimental)
 
-**FIXED**
+**FIXED:**
 - Fix auto format: new indent level are introduced when macros end with `\` 
 - Fix auto format: new lines are introduced in program clourse
 - Fix auto format: mins sybmols are incorrect in scome scenarios
@@ -13,133 +22,133 @@
 
 ### Version 1.1.7
 
-**NEW**
+**NEW:**
 - Add local package support
 - Add vfxshader support (Experimental)
 - Add VS2022 support
 
-**IMPROVED**
+**IMPROVED:**
 - Improve shader script templates workflow
 
-**FIXED**
+**FIXED:**
 - Fix block comment format issue
 - Fix Undo and Save On Format conflicts
 
 ### Version 1.1.6
 
-**NEW**
+**NEW:**
 - Add format on save feature. Enable it by set `Auto Format On Save` to `true` in options, the default value is `false` for this config item
 - Add scripts template feature. We can add customize script template and create them via menu `Create -> Shader -> [Customize Name]`. Install/update them to Unity by the menu `Tools -> ShaderlabVS Pro -> Install Script Templates` and Restart Unity is required
 
-**FIXED**
+**FIXED:**
 - Fix include files seaching is sometimes not working on old or upgraded Unity Project
 - Fix bug for formatting '--1' with wrong result
 
 
 ### Version v1.1.5
 
-**NEW**
+**NEW:**
 - Add more built in shader libaries
 
-**FIXED**
+**FIXED:**
 - Fix comment result will not correct in some scenarios
 - Fix that macros contains brace get wrong results in auto format
 
 ### Version 1.1.4
 
-**IMPROVED**
+**IMPROVED:**
 - Improve performance for ASE shaders
 
 ### Version 1.1.3
 
-**IMPROVED**
+**IMPROVED:**
 - Improve supports for shaders inside Packages folders
 
 ### Version 1.1.2
 
-**NEW**
+**NEW:**
 - Add supports for shaders inside Packages folder
 - Add supports for Visual Studio 2020 Preview
 
-**FIXED**
+**FIXED:**
 - Fix bug that some fields of struct are missing in code completion when struct contains macros
 - Fix minor bugs in auto format
 
 ### Version 1.1.1
 
-**IMPROVED**
+**IMPROVED:**
 - Improve macros formatting in AutoFormat
 
-**FIXED**
+**FIXED:**
 - Fix exception when `place brace in new line` is `false` in Auto Format
 - Fix bug that code completion of struct with method members is not correct
 
 ### Version 1.1.0
 
-**NEW**
+**NEW:**
 - Add `Format Selection` feature
 
-**IMPROVED**
+**IMPROVED:**
 - Better HLSL Supports that add more keywords and builtin methods
 - Better Outlining that support regions and program blocks
 - Better macros formatting. We can change different styles in `Macros Alignment Modes` settings
 - Better Syntax highlighting for types and methods
 
-**FIXED**
+**FIXED:**
 - Fix bugs that StructuredBuffer show as Buffer type in hover information
 - Fix some formatting bugs that breaking shader compile
 
 ### Version 1.0.5
 
-**NEW**
+**NEW:**
 * Add version update notification
 
-**IMPROVED**
+**IMPROVED:**
 * Better code completion match
 
-**FIXED**
+**FIXED:**
 * Fix some minor bugs
 
 ### Version 1.0.4
 
-**IMPROVED**
+**IMPROVED:**
 * Improve highlighting for all occurrences will ignore comment line
 * Improve performance for large files
 
-**FIXED**
+**FIXED:**
 * Fix bug that highlighting is not work for last comment line of code
 
 ### Version 1.0.3
 
-**NEW**
+**NEW:**
 * Add `placing open brace on new line` formatting style
 * Add type info in hover information
 
-**FIXED**
+**FIXED:**
 * Fix bug that variables in method cannot found in `Go To Definition`
 * Fix type name is wrong for some variables/members in some scenarios
 
 ### Version 1.0.2 Beta3
 
-**NEW**
+**NEW:**
 - Add `Go To Definition` features for methods/variables/types
 - Add highlighting for all occurrences for selected word
 - Add signature help support for method defined by macros
 
-**IMPROVED**
+**IMPROVED:**
 - Improve brace match marker background color 
 
-**FIXED**
+**FIXED:**
 - Fix bug that method defined by macros are missing in completion
 - Fix bug that duplicated completion item in Code Complete
 - Fix bug that built-in included shader libraries are missing
 
 ### Version 1.0.1 beta2
 
-**NEW**
+**NEW:**
 - Add code snippets support
 
-**IMPROVED**
+**IMPROVED:**
 - Improve syntax highlighting
 
 ### Version 1.0 beta1
