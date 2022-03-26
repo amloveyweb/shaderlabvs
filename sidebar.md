@@ -13,8 +13,8 @@
     - [Support SRP](README.md#support-srp)
     - [Code Snippets](README#code-snippets)
     - [Script Templates](README.md#script-templates)
+    - [Support File Types](SupportFiles.md#support-file-types)
 
 - Support
-    - [Support File Types](SupportFiles.md#support-file-types)
     - [Contact](contact.md#contact)
     - [Change Log](Changelog.md#changelog)
