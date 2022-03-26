@@ -11,7 +11,7 @@
 - Fix auto format: mins sybmols are incorrect in scome scenarios
 
 
-### Version v1.1.7
+### Version 1.1.7
 
 **NEW**
 - Add local package support
