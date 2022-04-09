@@ -10,7 +10,7 @@ ShaderlabVS Pro is a Visual Studio plugin for Unity shaderlab programming. It is
 <a href='https://mianbaoduo.com/o/bread/Zpubmpg=' target='_blank'><strong>Purchase On MianBaoDuo</strong></a>
 </p>
 
-![](http://www.amlovey.com/shaderlabvs/assets/Overview.png)
+![](./assets/Main.png)
 
 <div style='position:relative;width:100%;height:0px;padding-bottom:62.52%'>
 <iframe style="position: absolute;left:0;top:0;width:100%;height:100%" src="https://www.youtube.com/embed/EGK144QWbYo" frameborder="0" allowfullscreen></iframe>
@@ -32,19 +32,19 @@ ShaderlabVS Pro is a Visual Studio plugin for Unity shaderlab programming. It is
 
 ### Syntax Highlighting
 
-![](http://www.amlovey.com/shaderlabvs/assets/DarkTheme.png)
+![](./assets/Syntax-Hightlighting.png)
 
-### Code Completion and Basic Intellisense
+### Code Completion
 
-![](http://www.amlovey.com/shaderlabvs/assets/MemeberIntelisense.png)
+![](./assets/Code-Completion.png)
 
 ### Hover Information
 
-![](http://www.amlovey.com/shaderlabvs/assets/HoverInformation.png)
+![](./assets/HoverInformation.png)
 
 ### Signature Help
 
-![](http://www.amlovey.com/shaderlabvs/assets/SignatureHelp.png)
+![](./assets/Signature-Help.png)
 
 ### Auto Format
 
@@ -186,7 +186,7 @@ Subshader
 
 ### Support SRP
 
-![](http://www.amlovey.com/shaderlabvs/assets/SRP.png)
+![](./assets/SRP.png)
 
 ### Code Snippets
 Below are the snippets:
@@ -221,6 +221,15 @@ Below are the snippets:
 | subshader    | SubShader { ... }                                     |
 | tags         | Tags { ... }                                          |
 | tagtt        | Tags with both of RenderType and Queue is Transparent |
+
+### Regions
+
+We can add region like C# to code using one of below the pairs:
+
+* `//region` and `//endregion`
+* `//#region` and `//#endregion`
+
+![](./assets/Region.png)
 
 ### Script Templates
 
