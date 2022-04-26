@@ -1,5 +1,20 @@
 ## CHANGELOG
 
+### Version 1.2.5
+
+**NEW:**
+- Add support for instance methods of struct
+- Add support for Local packages which are binplaced under project root path
+
+**IMPROVE:**
+- Improve accuracy and speed of Go To Definition
+- Improve accuracy and speed of Code Completion
+
+**FIXED:**
+- Fix number 2.0 or 3.0 input will be broken when toogle completion mode is on
+- Fix Go To Definition doesn't work when mulitple files included in some cases
+- Fix typo `multi_compile`
+
 ### Version 1.2.0
 
 **NEW:**
