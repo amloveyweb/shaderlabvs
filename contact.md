@@ -1,12 +1,6 @@
 # Contact
 
-### Feature Request
+### Support 
 
-Send email to [amlovey@qq.com](maito:amlovey@qq.com)
-
-### Report an Issue
-
-Two ways to report an issue
-
-1. Send Email to [amlovey@qq.com](maito:amlovey@qq.com)
+1. Send Email to [support@amlovey.com](mailto:support@amlovey) or [amlovey@qq.com](maito:amlovey@qq.com)
 2. Open an issue on [Github Issues](https://github.com/amloveyweb/shaderlabvs/issues)
