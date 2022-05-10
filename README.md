@@ -236,3 +236,15 @@ We can add region like C# to code using one of below the pairs:
 We can add customize script template and create them via menu `Create -> Shader -> [Customize Name]`. Install/update them to Unity by the menu `Tools -> ShaderlabVS Pro -> Install Script Templates` and Restart Unity is required. 
 
 The template file format is `[Menu Name]-[Default File Name].txt` , for example `HLSL Shader-New HLSL Shader.hlsl.txt` means using `Create -> Shader -> HLSL Shader` menu to create a file default named to `New HLSL Shader.hlsl`.
+
+### Doc Comment
+
+Doc comment is the comment starts with `///`
+
+![](./assets/DocComment.png)
+
+### Navigate To
+
+`Ctrl + ,` to open NavigateTo window
+
+![](./assets/NavigateTo.png)

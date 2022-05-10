@@ -1,5 +1,16 @@
 ## CHANGELOG
 
+## Version 1.3.0
+
+**NEW:**
+- Add Doc Comment feature. Doc comments are the comments start with `///`. Hover Information and Signature Help will display doc comments as documentation
+- Add NavigateTo feature support for current document. Shortcut is `Ctrl + ,`
+
+**FIXED:**
+- Fix fields of types are not correct in some case
+- Fix ?: format is not correct in some case
+- Fix completion for RequireOptions tag
+
 ### Version 1.2.5
 
 **NEW:**

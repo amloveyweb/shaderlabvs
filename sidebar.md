@@ -13,6 +13,8 @@
     - [Support SRP](README.md#support-srp)
     - [Code Snippets](README#code-snippets)
     - [Script Templates](README.md#script-templates)
+    - [Doc Comment](README.md#doc-comment)
+    - [NavigateTo](README.md#navigate-to)
     - [Support File Types](SupportFiles.md#support-file-types)
 
 - Support
