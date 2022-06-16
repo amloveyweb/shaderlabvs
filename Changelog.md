@@ -1,5 +1,14 @@
 ## CHANGELOG
 
+## Version 1.3.1
+
+**NEW:**
+- Add static methods support for code completion
+- Add Property Drawers supports
+
+**FIXED:**
+- Fix include files in HLSLINCLUDE/CGINCLUDE block are ignored
+
 ## Version 1.3.0
 
 **NEW:**
