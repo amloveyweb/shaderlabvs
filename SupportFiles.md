@@ -7,3 +7,4 @@
 * .cg
 * .hlsl
 * .vfxshader
+* .surfshader (BetterShaders)

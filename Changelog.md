@@ -1,5 +1,15 @@
 ## CHANGELOG
 
+## Version 1.3.2
+
+**NEW:**
+- **BetterShaders Support (Experimental)**
+    - Add Syntax Highlighting support
+    - Add Outline support
+    - Add Signature Help support
+    - Add Auto Format support
+    - Add part of GoToDefinition support
+
 ## Version 1.3.1
 
 **NEW:**
