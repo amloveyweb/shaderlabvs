@@ -7,7 +7,7 @@ ShaderlabVS Pro is a Visual Studio plugin for Unity shaderlab programming. It is
 <a href='http://forum.unity3d.com/threads/1032139/' target='_blank'><strong>Forum</strong> </a> &nbsp;|&nbsp; 
 <a href='mailto:amlovey@qq.com'><strong>Email</strong></a> &nbsp;|&nbsp;
 <a href='https://assetstore.unity.com/packages/slug/186176?aid=1011lGoJ' target='_blank'><strong>Purchase On Asset Store</strong> </a>  &nbsp;|&nbsp;
-<a href='https://mianbaoduo.com/o/bread/Zpubmpg=' target='_blank'><strong>Purchase On MianBaoDuo</strong></a>
+<a href='https://mbd.pub/o/bread/Zpubmpg=' target='_blank'><strong>Purchase On MianBaoDuo</strong></a>
 </p>
 
 ![](./assets/Main.png)
