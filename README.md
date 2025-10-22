@@ -1,6 +1,9 @@
 ShaderlabVS Pro
 ====
 
+> ShaderlabVS will upgraded to Omni Shader Tools For Unity, see more details on <https://omnishader.amlovey.com>
+
+
 ShaderlabVS Pro is a Visual Studio plugin for Unity shaderlab programming. It is paid version of [ShaderlabVS](https://github.com/wudixiaop/ShaderlabVS) which we made and open source since the year 2014. Compared with ShaderlabVS, it has more features and better performance.
 
 <p>
